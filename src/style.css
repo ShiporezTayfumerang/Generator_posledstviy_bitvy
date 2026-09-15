@@ -1,0 +1,56 @@
+.input-style {
+    background-image: url('Input-bark.png');
+    height: 37%;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 7% 1% 7%; 
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: xx-large;
+    color: #000000;
+}
+.output-style {
+    background-image: url('Output-stone.png');
+    height: 39%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 12% 0% 12%; /* Отступы в процентах: сверху | справа | снизу | слева */
+    box-sizing: border-box;
+    color: #ff2121;
+font-family: Georgia, serif;
+}
+.button-style {
+    background-image: url('Button-paw.png');
+    
+    height: 30%;
+    width: 30%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 5% 5% 5% 5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-style {
+    background-image: url('Background.png');
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    gap: 0%;                
+}
+.background-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
